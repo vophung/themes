@@ -7,6 +7,7 @@
     <title>LikeTruyện</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
    <!-- Bootstrap CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -59,8 +60,45 @@
     <div class="container1 navbar-top">
     <div class="right">
       <div class="title-new">
-        <h3>Đọc nhiều</h3>
-      </div>
+        <h3>Truyện Theo</h3>
+          <!-- Tab items -->
+          <div class="tabs">
+            <div class="tab-item active">
+            <button type="button" class="btn btn-light">Ngày</button>
+            </div>
+            <div class="tab-item">
+              <button type="button" class="btn btn-light">Tháng</button>
+            </div>
+            <div class="tab-item">
+            <button type="button" class="btn btn-light">Mùa</button>
+            </div>
+            <div class="tab-item">
+            <button type="button" class="btn btn-light">Năm</button>
+            </div>
+            <div class="line"></div>
+          </div>
+        
+          <!-- Tab content -->
+          <div class="tab-content">
+            <div class="tab-pane active">
+              <img src="./img/new.jpg" alt="img" class="img-responsive item-img">
+              <ul>
+                <li> 
+                  <img src="./img/new3.jpg" alt="" class="responsive">
+                </li>
+              </ul>
+             </div>
+            <div class="tab-pane">
+              <img src="./img/new4.jpg" alt="img" class="img-responsive item-img">
+              </div>
+            <div class="tab-pane">
+              <img src="./img/new2.jpg" alt="img" class="img-responsive item-img">
+              </div>
+            <div class="tab-pane">
+              <img src="./img/new3.jpg" alt="img" class="img-responsive item-img">
+               </div>
+          </div>
+        </div>
         <div class="tilte-hot">
           <h3>Hót</h3>
         </div>
@@ -219,9 +257,7 @@
               class="btn btn-primary btn-floating m-1"
               style="background-color: #3b5998;"
               href="#!"
-              role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
+              role="button"><i class="fab fa-facebook-f"></i></a>
       
             <!-- Twitter -->
             <a
@@ -249,15 +285,6 @@
               role="button"
               ><i class="fab fa-instagram"></i
             ></a>
-      
-            <!-- Linkedin -->
-            <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #0082ca;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
             <!-- Github -->
             <a
               class="btn btn-primary btn-floating m-1"
@@ -266,6 +293,14 @@
               role="button"
               ><i class="fab fa-github"></i
             ></a>
+              <!-- Github -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ed302f;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-youtube"></i
+          ></a>
           </section>
           <!-- Section: Social media -->
         </div>
@@ -273,8 +308,8 @@
       
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          @ 2021 New Web:
+          <a class="text-white" href="#">LikeTruyen.com</a>
         </div>
         <!-- Copyright -->
       </footer>
@@ -282,6 +317,7 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="./main.js"></script>
       <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
